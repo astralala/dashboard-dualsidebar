@@ -49,7 +49,7 @@ const Header = ({
           )}
         </button>
         
-        <div className="flex items-center space-x-4 ml-8">
+        <div className="hidden sm:flex items-center space-x-4 ml-8">
           <div className="w-8 h-8 bg-sky-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">A</span>
           </div>
@@ -83,7 +83,7 @@ const Header = ({
           >
             <User className="w-4 h-4 text-gray-600" />
           </button>
-          <span className="text-sm font-medium text-gray-50">Dessy</span>
+          <span className="hidden sm:flex text-sm font-medium text-gray-50">Dessy</span>
           {dropdownOpen && (
             <div className="absolute right-0 top-12 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
               <ul className="py-2">
