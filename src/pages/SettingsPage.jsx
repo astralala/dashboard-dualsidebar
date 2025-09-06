@@ -205,10 +205,10 @@ const SettingsPage = ({ activeSubMenu }) => {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-        <div className="overflow-x-auto" style={{ maxHeight: 320, overflowY: 'auto' }}>
+      <div className="bg-white rounded-xl shadow-sm border border-gray-100">
+        <div>
           <table className="min-w-full border border-gray-300">
-            <thead className="bg-blue-600 text-white sticky top-0 z-10">
+            <thead className="bg-blue-600 text-white sticky top-20 z-10">
               <tr>
                 <th className="px-4 py-2 border">#</th>
                 <th className="px-4 py-2 border">Nama</th>
@@ -234,6 +234,7 @@ const SettingsPage = ({ activeSubMenu }) => {
           </table>
         </div>
       </div>
+      
       <h2 className="text-2xl font-bold text-gray-900">Settings Overview</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
