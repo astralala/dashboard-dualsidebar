@@ -205,6 +205,35 @@ const SettingsPage = ({ activeSubMenu }) => {
 
   return (
     <div className="space-y-6">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+        <div className="overflow-x-auto" style={{ maxHeight: 320, overflowY: 'auto' }}>
+          <table className="min-w-full border border-gray-300">
+            <thead className="bg-blue-600 text-white sticky top-0 z-10">
+              <tr>
+                <th className="px-4 py-2 border">#</th>
+                <th className="px-4 py-2 border">Nama</th>
+                <th className="px-4 py-2 border">Email</th>
+                <th className="px-4 py-2 border">Kota</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-200 bg-white">
+              <tr><td class="px-4 py-2 border">1</td><td class="px-4 py-2 border">Andi</td><td class="px-4 py-2 border">andi@mail.com</td><td class="px-4 py-2 border">Jakarta</td></tr>
+              <tr><td class="px-4 py-2 border">2</td><td class="px-4 py-2 border">Budi</td><td class="px-4 py-2 border">budi@mail.com</td><td class="px-4 py-2 border">Bandung</td></tr>
+              <tr><td class="px-4 py-2 border">3</td><td class="px-4 py-2 border">Citra</td><td class="px-4 py-2 border">citra@mail.com</td><td class="px-4 py-2 border">Surabaya</td></tr>
+              <tr><td class="px-4 py-2 border">4</td><td class="px-4 py-2 border">Doni</td><td class="px-4 py-2 border">doni@mail.com</td><td class="px-4 py-2 border">Medan</td></tr>
+              <tr><td class="px-4 py-2 border">5</td><td class="px-4 py-2 border">Eka</td><td class="px-4 py-2 border">eka@mail.com</td><td class="px-4 py-2 border">Makassar</td></tr>
+              <tr><td class="px-4 py-2 border">6</td><td class="px-4 py-2 border">Fani</td><td class="px-4 py-2 border">fani@mail.com</td><td class="px-4 py-2 border">Jogja</td></tr>
+              <tr><td class="px-4 py-2 border">7</td><td class="px-4 py-2 border">Gilang</td><td class="px-4 py-2 border">gilang@mail.com</td><td class="px-4 py-2 border">Palembang</td></tr>
+              <tr><td class="px-4 py-2 border">8</td><td class="px-4 py-2 border">Hana</td><td class="px-4 py-2 border">hana@mail.com</td><td class="px-4 py-2 border">Bali</td></tr>
+              <tr><td class="px-4 py-2 border">9</td><td class="px-4 py-2 border">Irfan</td><td class="px-4 py-2 border">irfan@mail.com</td><td class="px-4 py-2 border">Semarang</td></tr>
+              <tr><td class="px-4 py-2 border">10</td><td class="px-4 py-2 border">Joko</td><td class="px-4 py-2 border">joko@mail.com</td><td class="px-4 py-2 border">Malang</td></tr>
+              <tr><td class="px-4 py-2 border">11</td><td class="px-4 py-2 border">Kevin</td><td class="px-4 py-2 border">kevin@mail.com</td><td class="px-4 py-2 border">Depok</td></tr>
+              <tr><td class="px-4 py-2 border">12</td><td class="px-4 py-2 border">Lisa</td><td class="px-4 py-2 border">lisa@mail.com</td><td class="px-4 py-2 border">Bogor</td></tr>
+              <tr><td class="px-4 py-2 border">13</td><td class="px-4 py-2 border">Maya</td><td class="px-4 py-2 border">maya@mail.com</td><td class="px-4 py-2 border">Solo</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       <h2 className="text-2xl font-bold text-gray-900">Settings Overview</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
