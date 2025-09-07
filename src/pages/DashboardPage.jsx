@@ -3,6 +3,7 @@ import { TrendingUp, Users, ShoppingCart, DollarSign, Activity } from 'lucide-re
 
 const DashboardPage = ({ activeSubMenu }) => {
   const renderMetrics = () => (
+  <main className="flex-1 p-6 bg-gray-50">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Key Metrics</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -36,9 +37,11 @@ const DashboardPage = ({ activeSubMenu }) => {
         ))}
       </div>
     </div>
+  </main>
   );
 
   const renderCharts = () => (
+  <main className="flex-1 p-6 bg-gray-50">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Charts & Graphs</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -56,9 +59,11 @@ const DashboardPage = ({ activeSubMenu }) => {
         </div>
       </div>
     </div>
+  </main>  
   );
 
   const renderOverview = () => (
+  <main className="flex-1 p-6 bg-gray-50">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Dashboard Overview</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -96,6 +101,7 @@ const DashboardPage = ({ activeSubMenu }) => {
         </div>
       </div>
     </div>
+  </main>
   );
 
   if (activeSubMenu === 'metrics') {
@@ -108,6 +114,7 @@ const DashboardPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'recent') {
     return (
+    <main className="flex-1 p-6 bg-gray-50">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Recent Activity</h2>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -136,6 +143,7 @@ const DashboardPage = ({ activeSubMenu }) => {
           </div>
         </div>
       </div>
+    </main>  
     );
   }
 

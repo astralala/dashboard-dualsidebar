@@ -5,6 +5,7 @@ const AnalyticsPage = ({ activeSubMenu }) => {
   const renderReports = () => {
     if (activeSubMenu === 'sales-report') {
       return (
+      <main className="flex-1 p-6 bg-gray-50">
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-900">Sales Report</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -22,11 +23,13 @@ const AnalyticsPage = ({ activeSubMenu }) => {
             </div>
           </div>
         </div>
+      </main>
       );
     }
 
     if (activeSubMenu === 'user-report') {
       return (
+      <main className="flex-1 p-6 bg-gray-50">
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-900">User Analytics</h2>
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -47,11 +50,13 @@ const AnalyticsPage = ({ activeSubMenu }) => {
             </div>
           </div>
         </div>
+      </main>  
       );
     }
 
     if (activeSubMenu === 'traffic-report') {
       return (
+      <main className="flex-1 p-6 bg-gray-50">
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-900">Traffic Analysis</h2>
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -77,10 +82,12 @@ const AnalyticsPage = ({ activeSubMenu }) => {
             </div>
           </div>
         </div>
+      </main>  
       );
     }
 
     return (
+    <main className="flex-1 p-6 bg-gray-50">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Reports Overview</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -101,11 +108,13 @@ const AnalyticsPage = ({ activeSubMenu }) => {
           </div>
         </div>
       </div>
+    </main>  
     );
   };
 
   if (activeSubMenu === 'realtime') {
     return (
+    <main className="flex-1 p-6 bg-gray-50">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Real-time Data</h2>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -136,6 +145,7 @@ const AnalyticsPage = ({ activeSubMenu }) => {
           </div>
         </div>
       </div>
+    </main>  
     );
   }
 
