@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-dangerDjka {
+    background-color: #b40000;
+}
+
+.bg-primaryDjka {
+    background-color: #0e1937;
+}
+
+.bg-mainDjka {
+    background-color: #f5f0ed;
+}
+
+.grayDjkaBg {
+    background-color: #e8e8e8;
+}
+
+.secondaryDjka {
+    background-color: #fff3c8;
+}
+
+.dangerDjka {
+    background-color: #b40000;
+}
+
+.thirdDjka {
+    background-color: #cfeef6;
+}
+
