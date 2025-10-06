@@ -3,7 +3,7 @@ import { TrendingUp, Users, ShoppingCart, DollarSign, Activity } from 'lucide-re
 
 const DashboardPage = ({ activeSubMenu }) => {
   const renderMetrics = () => (
-  <main className="flex-1 p-6 bg-gray-50">
+  <main className="flex-1 p-6 bg-mainDjka">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Key Metrics</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -41,7 +41,7 @@ const DashboardPage = ({ activeSubMenu }) => {
   );
 
   const renderCharts = () => (
-  <main className="flex-1 p-6 bg-gray-50">
+  <main className="flex-1 p-6 bg-mainDjka">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Charts & Graphs</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -63,7 +63,7 @@ const DashboardPage = ({ activeSubMenu }) => {
   );
 
   const renderOverview = () => (
-  <main className="flex-1 p-6 bg-gray-50">
+  <main className="flex-1 p-6 bg-mainDjka">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Dashboard Overview</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -79,6 +79,18 @@ const DashboardPage = ({ activeSubMenu }) => {
             </button>
             <button className="border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors">
               Learn More
+            </button>
+            <button className="bg-yellow-300 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+              Color Btn
+            </button>
+            <button className="bg-violet-300 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+              Color Btn
+            </button>
+            <button className="bg-red-300 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+              Color Btn
+            </button>
+            <button className="bg-orange-300 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+              Color Btn
             </button>
           </div>
         </div>
@@ -114,7 +126,7 @@ const DashboardPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'recent') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Recent Activity</h2>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">

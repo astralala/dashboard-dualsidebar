@@ -4,7 +4,7 @@ import { Package, ShoppingCart, Plus, Edit, Trash2 } from 'lucide-react';
 const ProductsPage = ({ activeSubMenu }) => {
   if (activeSubMenu === 'all-products') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900">All Products</h2>
@@ -58,7 +58,7 @@ const ProductsPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'categories') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900">Product Categories</h2>
@@ -106,7 +106,7 @@ const ProductsPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'stock') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Stock Management</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
@@ -161,7 +161,7 @@ const ProductsPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'orders') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Orders</h2>
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
@@ -208,7 +208,7 @@ const ProductsPage = ({ activeSubMenu }) => {
   }
 
   return (
-  <main className="flex-1 p-6 bg-gray-50">
+  <main className="flex-1 p-6 bg-mainDjka">
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-gray-900">Product Management</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

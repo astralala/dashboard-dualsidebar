@@ -4,7 +4,7 @@ import { Users, Shield, UserPlus, Settings } from 'lucide-react';
 const UsersPage = ({ activeSubMenu }) => {
   if (activeSubMenu === 'all-users') {
     return (
-    <main className="flex-1 p-6 bg-gray-50 overflow-auto">
+    <main className="flex-1 p-6 bg-mainDjka overflow-auto">
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900">Sample Tables All Users</h2>
@@ -927,7 +927,7 @@ const UsersPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'roles') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Roles & Permissions</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -966,7 +966,7 @@ const UsersPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'groups') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">User Groups</h2>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -997,7 +997,7 @@ const UsersPage = ({ activeSubMenu }) => {
 
   if (activeSubMenu === 'authentication') {
     return (
-    <main className="flex-1 p-6 bg-gray-50">
+    <main className="flex-1 p-6 bg-mainDjka">
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-gray-900">Authentication Settings</h2>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
