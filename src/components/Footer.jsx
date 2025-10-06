@@ -3,7 +3,7 @@ import { Heart } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-red-500 border-t border-gray-200 px-6 py-4">
+    <footer className="bg-dangerDjka border-t border-gray-200 px-6 py-4">
       <div className="flex items-center justify-between text-sm text-white">
         <div className="flex items-center space-x-4">
           <span>© 2025 Dashboard Dual Sidebar.</span>

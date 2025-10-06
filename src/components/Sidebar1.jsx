@@ -28,15 +28,15 @@ const Sidebar1 = ({
             onClick={() => setActiveMenu(item.id)}
             className={`${isMobile ? 'w-14 h-14' : 'w-16 h-16'} flex flex-col items-center justify-center rounded-xl transition-all duration-200 group ${
               isActive
-                ? 'bg-blue-50 text-blue-600 shadow-sm'
-                : 'text-gray-500 hover:text-gray-700 hover:bg-gray-50'
+                ? 'bg-primaryDjka text-blue-50 shadow-sm'
+                : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
             }`}
           >
             <Icon className={`${isMobile ? 'w-5 h-5' : 'w-6 h-6'} mb-1 transition-transform group-hover:scale-110 ${
-              isActive ? 'text-blue-600' : ''
+              isActive ? 'text-white' : ''
             }`} />
             <span className={`${isMobile ? 'text-xs' : 'text-xs'} font-medium ${
-              isActive ? 'text-blue-600' : 'text-gray-600'
+              isActive ? 'text-white' : 'text-gray-600'
             }`}>
               {item.label}
             </span>
